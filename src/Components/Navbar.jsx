@@ -33,7 +33,7 @@ const Navbar = () => {
             <div className={` ${hamburger === true ? '-rotate-45' : ''} ${hamburger === true ? 'absolute' : ''} h-1 duration-500 w-10 bg-slate-400 rounded-full`}></div>
           </div>
           {/* Hamburger menu for small screens */}
-          <div className={` fixed flex-col justify-start ${hamburger === true ? 'left-[0%]' : 'left-[100%]'} lg:hidden items-start duration-500 pt-5 pl-7 top-16 gap-5 bg-gradient-to-r from-[#140814] via-[#0f0821] to-[#480938] h-full w-full sm:pl-14 md:pl-16`}>
+          <div className={` fixed flex-col justify-start ${hamburger === true ? 'left-[0%]' : 'left-[100%]'} lg:hidden items-start duration-500 pt-5 pl-7 top-14 gap-5 bg-gradient-to-r from-[#140814] via-[#0f0821] to-[#480938] h-full w-full sm:pl-14 md:pl-16`}>
             <div className=' flex flex-col gap-3 justify-start items-start text-base font-semibold pb-7'>
               <Link to='home' smooth={true} duration={500}><button onClick={() => setmenu('home')} className={` whitespace-nowrap hover:border-b-4 hover:border-[#f842e8] ${menu === 'home' ? 'border-b-4 border-[#f842e8]' : ''}`}>Home</button></Link>
               <Link to='about_me' smooth={true} duration={500}><button onClick={() => setmenu('about_me')} className={` whitespace-nowrap hover:border-b-4 hover:border-[#f842e8] ${menu === 'about_me' ? 'border-b-4 border-[#f842e8]' : ''}`}>About Me</button></Link>
