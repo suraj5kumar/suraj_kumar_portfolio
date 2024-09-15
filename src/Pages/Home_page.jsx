@@ -6,6 +6,8 @@ import AboutMe from '../Components/AboutMe'
 import Skills from '../Components/Skills'
 import Projects from '../Components/Projects'
 import { Element } from 'react-scroll'
+import Services from '../Components/Services'
+import Contact_Form from '../Components/Contact_Form'
 const Home_page = () => {
 
   return (
@@ -30,6 +32,16 @@ const Home_page = () => {
       <Element name='projects'>
         <section>
           <Projects />
+        </section>
+      </Element>
+      <Element name='services'>
+        <section>
+          <Services />
+        </section>
+      </Element>
+      <Element name='contact'>
+        <section>
+          {/* <Contact_Form /> */}
         </section>
       </Element>
     </>
