@@ -8,7 +8,7 @@ const AboutMe = () => {
           <h1 className=' text-4xl xl:text-6xl font-medium underline xl:pl-20 2xl:pl-56'>About Me</h1>
 
           {/* Details */}
-          <div className=' flex flex-col gap-5 text-xl sm:px-10 lg:px-20 xl:px-0 xl:pl-20 2xl:pl-56'>
+          <div className=' flex flex-col gap-5 lg:text-xl sm:px-10 lg:px-20 xl:px-0 xl:pl-20 2xl:pl-56'>
             <p
               data-aos="fade-up"
               data-aos-duration="500"
