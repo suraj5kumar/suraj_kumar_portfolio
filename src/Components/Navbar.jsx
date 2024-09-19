@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { Link, Element, animateScroll as scroll } from 'react-scroll'
 const Navbar = () => {
   const [menu, setmenu] = useState('home')
@@ -18,11 +17,11 @@ const Navbar = () => {
           {/* Navbar at big screen */}
           <div className=' w-full items-center hidden lg:flex'>
             <div className=' flex items-center text-base xl:text-lg font-medium gap-5 xl:gap-7 2xl:gap-10'>
-              <Link to='home' smooth={true} duration={500}><button onClick={() => setmenu('home')} className={` py-2 hover:border-b-4 hover:border-[#f842e8] whitespace-nowrap ${menu === 'home' ? 'border-b-4 border-[#f842e8]' : ''}`}>Home</button></Link>
-              <Link to='about_me' smooth={true} duration={500}><button onClick={() => setmenu('about_me')} className={` py-2 hover:border-b-4 hover:border-[#f842e8] whitespace-nowrap ${menu === 'about_me' ? 'border-b-4 border-[#f842e8]' : ''}`}>About Me</button></Link>
-              <Link to='skills' smooth={true} duration={500}><button onClick={() => setmenu('skills')} className={` py-2 hover:border-b-4 hover:border-[#f842e8] whitespace-nowrap ${menu === 'skills' ? 'border-b-4 border-[#f842e8]' : ''}`}>Skills</button></Link>
-              <Link to='projects' smooth={true} duration={500}><button onClick={() => setmenu('projects')} className={` py-2 hover:border-b-4 hover:border-[#f842e8] whitespace-nowrap ${menu === 'projects' ? 'border-b-4 border-[#f842e8]' : ''}`}>Projects</button></Link>
-              <Link to='services' smooth={true} duration={500}><button onClick={() => setmenu('services')} className={` py-2 hover:border-b-4 hover:border-[#f842e8] whitespace-nowrap ${menu === 'services' ? 'border-b-4 border-[#f842e8]' : ''}`}>Services</button></Link>
+              <Link to='home' smooth={true} duration={500}><button onClick={() => setmenu('home')} className={` py-1.5 hover:border-b hover:border-[#f842e8] whitespace-nowrap`}>Home</button></Link>
+              <Link to='about_me' smooth={true} duration={500}><button onClick={() => setmenu('about_me')} className={` py-1.5 hover:border-b hover:border-[#f842e8] whitespace-nowrap`}>About Me</button></Link>
+              <Link to='skills' smooth={true} duration={500}><button onClick={() => setmenu('skills')} className={` py-1.5 hover:border-b hover:border-[#f842e8] whitespace-nowrap`}>Skills</button></Link>
+              <Link to='projects' smooth={true} duration={500}><button onClick={() => setmenu('projects')} className={` py-1.5 hover:border-b hover:border-[#f842e8] whitespace-nowrap`}>Projects</button></Link>
+              <Link to='services' smooth={true} duration={500}><button onClick={() => setmenu('services')} className={` py-1.5 hover:border-b hover:border-[#f842e8] whitespace-nowrap}`}>Services</button></Link>
             </div>
             {/* Contact me button */}
             <Link to='contact' smooth={true} duration={500} className=' ml-auto'><button onClick={()=>setmenu('contact')} className=' whitespace-nowrap ml-auto bg-[#4c266b] px-8 py-2 text-lg rounded-full font-bold hover:opacity-80'>Contact Me</button></Link>
@@ -36,11 +35,11 @@ const Navbar = () => {
           {/* Hamburger menu for small screens */}
           <div className={` fixed flex-col justify-start ${hamburger === true ? 'left-[0%]' : 'left-[100%]'} lg:hidden items-start duration-500 pt-5 pl-7 top-14 gap-5 bg-gradient-to-r from-[#140814] via-[#0f0821] to-[#480938] h-full w-full sm:pl-14 md:pl-16`}>
             <div className=' flex flex-col gap-3 justify-start items-start text-base font-semibold pb-7'>
-              <Link to='home' smooth={true} duration={500}><button onClick={() => setmenu('home')} className={` whitespace-nowrap hover:border-b-4 hover:border-[#f842e8] ${menu === 'home' ? 'border-b-4 border-[#f842e8]' : ''}`}>Home</button></Link>
-              <Link to='about_me' smooth={true} duration={500}><button onClick={() => setmenu('about_me')} className={` whitespace-nowrap hover:border-b-4 hover:border-[#f842e8] ${menu === 'about_me' ? 'border-b-4 border-[#f842e8]' : ''}`}>About Me</button></Link>
-              <Link to='skills' smooth={true} duration={500}><button onClick={() => setmenu('skills')} className={` whitespace-nowrap hover:border-b-4 hover:border-[#f842e8] ${menu === 'skills' ? 'border-b-4 border-[#f842e8]' : ''}`}>Skills</button></Link>
-              <Link to='projects' smooth={true} duration={500}><button onClick={() => setmenu('projects')} className={` whitespace-nowrap hover:border-b-4 hover:border-[#f842e8] ${menu === 'projects' ? 'border-b-4 border-[#f842e8]' : ''}`}>Projects</button></Link>
-              <Link to='services' smooth={true} duration={500}><button onClick={() => setmenu('services')} className={` whitespace-nowrap hover:border-b-4 hover:border-[#f842e8] ${menu === 'services' ? 'border-b-4 border-[#f842e8]' : ''}`}>Services</button></Link>
+              <Link to='home' smooth={true} duration={500}><button onClick={() => setmenu('home')} className={` whitespace-nowrap hover:border-b hover:border-[#f842e8]`}>Home</button></Link>
+              <Link to='about_me' smooth={true} duration={500}><button onClick={() => setmenu('about_me')} className={` whitespace-nowrap hover:border-b hover:border-[#f842e8]`}>About Me</button></Link>
+              <Link to='skills' smooth={true} duration={500}><button onClick={() => setmenu('skills')} className={` whitespace-nowrap hover:border-b hover:border-[#f842e8]`}>Skills</button></Link>
+              <Link to='projects' smooth={true} duration={500}><button onClick={() => setmenu('projects')} className={` whitespace-nowrap hover:border-b hover:border-[#f842e8]`}>Projects</button></Link>
+              <Link to='services' smooth={true} duration={500}><button onClick={() => setmenu('services')} className={` whitespace-nowrap hover:border-b hover:border-[#f842e8]`}>Services</button></Link>
             </div>
             <Link to='contact' smooth={true} duration={500}><button onClick={()=>setmenu('contact')} className=' whitespace-nowrap bg-[#4c266b] px-8 py-2 text-lg rounded-full font-bold hover:opacity-80'>Contact Me</button></Link>
           </div>

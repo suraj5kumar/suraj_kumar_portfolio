@@ -34,9 +34,9 @@ const Widgets_Dashboard = () => {
               data-aos-duration="500"
               data-aos-easing="linear"
               data-aos-once="false"
-              className=' flex flex-col items-center lg:items-end lg:relative lg:left-10 lg:pb-16 2xl:left-12'>
-              <h1 className=' text-lg font-bold md:text-2xl xl:text-4xl'>Dashboard</h1>
-              <p className=' md:text-xl xl:text-3xl'>August 2024</p>
+              className=' flex flex-col items-center lg:items-end lg:relative lg:left-8 lg:pb-16 2xl:left-8'>
+              <h1 className=' text-lg font-bold md:text-2xl xl:text-3xl'>Dashboard</h1>
+              <p className=' md:text-xl xl:text-2xl'>August 2024</p>
             </div>
             {/* Links */}
             <div className=' hidden w-full justify-between'>
