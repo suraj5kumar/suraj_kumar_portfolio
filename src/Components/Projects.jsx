@@ -1,10 +1,10 @@
 import React from 'react'
 import Warme from './Projects Folder/Warme'
 import Dream11_Landing_Page from './Projects Folder/Dream11_Landing_Page'
-import Design1 from './Design1'
+import Design1 from './Designs Folder/Design1'
 import Widgets_Dashboard from './Projects Folder/Widgets_Dashboard'
 import E_Commerce from './Projects Folder/E_Commerce'
-import Design2 from './Design2'
+import Design2 from './Designs Folder/Design2'
 import { useNavigate } from 'react-router-dom'
 
 const Projects = () => {
@@ -25,11 +25,11 @@ const Projects = () => {
             {/* Project 1 */}
             <Warme />
             {/* Design 1 */}
-            <div className=' absolute left-12 lg:top-[360px] xl:left-10 xl:top-[380px] 2xl:left-40 '>
+            <div className=' absolute left-12 lg:top-[360px] xl:left-20 xl:top-[380px] 2xl:left-52 '>
               <Design1 />
             </div>
             {/* Project 2 */}
-            <div className=' lg:pl-56 xl:pl-96 2xl:pl-80'>
+            <div className=' lg:pl-56 xl:pl-96 2xl:pl-84'>
               <Widgets_Dashboard />
             </div>
             {/* Project 3 */}

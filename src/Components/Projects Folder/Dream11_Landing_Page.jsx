@@ -27,9 +27,9 @@ const Dream11_Landing_Page = () => {
               data-aos-duration="500"
               data-aos-easing="linear"
               data-aos-once="false"
-              className=' flex flex-col items-center lg:items-end lg:relative lg:left-10 lg:pb-12 2xl:left-12'>
-              <h1 className=' text-lg font-bold md:text-2xl xl:text-4xl'>Product Landing Page</h1>
-              <p className=' md:text-xl xl:text-3xl'>April 2024</p>
+              className=' flex flex-col items-center lg:items-end lg:relative lg:left-8 lg:pb-12 2xl:left-8'>
+              <h1 className=' text-lg font-bold md:text-2xl xl:text-3xl'>Product Landing Page</h1>
+              <p className=' md:text-xl xl:text-2xl'>April 2024</p>
             </div>
             {/* Links */}
             <div className=' hidden w-full justify-between'>

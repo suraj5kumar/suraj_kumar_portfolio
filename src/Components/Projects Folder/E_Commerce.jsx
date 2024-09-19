@@ -27,9 +27,9 @@ const E_Commerce = () => {
               data-aos-duration="500"
               data-aos-easing="linear"
               data-aos-once="false"
-              className=' flex flex-col items-center lg:items-start lg:relative lg:right-6 lg:pt-20 xl:pt-24 xl:right-12'>
-              <h1 className=' text-lg font-bold md:text-2xl xl:text-4xl'>E-Commerce</h1>
-              <p className=' md:text-xl xl:text-3xl'>June 2024</p>
+              className=' flex flex-col items-center lg:items-start lg:relative lg:right-6 lg:pt-20 xl:pt-24 xl:right-8'>
+              <h1 className=' text-lg font-bold md:text-2xl xl:text-3xl'>E-Commerce</h1>
+              <p className=' md:text-xl xl:text-2xl'>June 2024</p>
             </div>
             {/* Links */}
             <div className=' hidden w-full justify-between'>

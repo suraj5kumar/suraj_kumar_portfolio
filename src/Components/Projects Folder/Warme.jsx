@@ -22,15 +22,17 @@ const Warme = () => {
           {/* Project Details and link */}
           <div className=' pt-3 flex flex-col items-center text-white'>
             {/* Project Details */}
-            <div
-              data-aos="fade-left"
-              data-aos-duration="500"
-              data-aos-easing="linear"
-              data-aos-once="false"
-              className=' flex flex-col items-center lg:items-start lg:relative lg:right-6 xl:pt-10 xl:right-12'>
-              <h1 className=' text-lg font-bold md:text-2xl xl:text-4xl'>Warme Charitable Foundation</h1>
-              <p className=' md:text-xl xl:text-3xl'>July 2024</p>
-            </div>
+            <a href="https://www.warmefoundation.org/" target='_blank'>
+              <div
+                data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-easing="linear"
+                data-aos-once="false"
+                className=' flex flex-col items-center lg:items-start lg:relative lg:right-6 xl:pt-10 xl:right-8'>
+                <h1 className=' text-lg font-bold md:text-2xl xl:text-3xl'>Warme Charitable Foundation</h1>
+                <p className=' md:text-xl xl:text-2xl'>July 2024</p>
+              </div>
+            </a>
             {/* Links */}
             <div className=' hidden w-full justify-between'>
               <a href="https://www.warmefoundation.org/" target='_blank'><button className=' md:text-lg hover:opacity-50 duration-300 text-green-500'>Live Project</button></a>
